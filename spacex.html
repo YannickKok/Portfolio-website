@@ -9,12 +9,17 @@
     <body>
         <div class="background1">
             <div id="d1" class="decoration1">
-               <br><br> <a href="index.html" id="home">Home</a>
-            </div>
-            <h1 id="t1" class="inline">Yannick Kok</h1>
-            <img id="img1" class="inline" src="pics/YK-design2.png">
-            <h1 id="t2" class="inline">Portfolio</h1>
-            <div id="d2" class="decoration1"></div>
+                <br><br> <a href="index.html" id="home">Home</a>
+                <br><br> <a href="#projectoverzicht" id="projectlink">Projecten</a>
+             </div>
+             <h1 id="t1" class="inline">Yannick Kok</h1>
+             <img id="img1" class="inline" src="pics/YK-design2.png">
+             <h1 id="t2" class="inline">Portfolio</h1>
+             <div id="d2" class="decoration1">
+                 
+                 <br><br> <a href="#colofon" id="overiglink">Overig</a>
+                 <br><br> <a href="#contact" id="contactlink">Contact</a>
+             </div>
             <div id="l1" class="line1"></div>
             <div id="l2" class="line1"></div>
             <div id="d3">VOL.. I, NO. 001
@@ -22,17 +27,18 @@
                 </div>
 
             <div id="d4">SASSENHEIM,&nbsp;&nbsp;   ZUID HOLLAND,&nbsp;&nbsp;   WOENSDAG&nbsp;&nbsp;   MIDDAG,&nbsp;&nbsp;   13 JANUARI, 2021</div>
-            <div class="nav">
-                <select id="u155_input" class="u155_input">
-                    <option class="u155_input_option"  value="PAGINA 1">PAGINA 1</option>
-                    <option class="u155_input_option" value="PAGINA 2">PAGINA 2</option>
-                    <option class="u155_input_option"  value="PAGINA 3">PAGINA 3</option>
-                    <option class="u155_input_option" value="PAGINA 4">PAGINA 4</option>
-                    <option class="u155_input_option" value="PAGINA 5">PAGINA 5</option>
-                    <option class="u155_input_option" value="PAGINA 6">PAGINA 6</option>
-                    <option class="u155_input_option" selected="" value="PAGINA 7">PAGINA 7</option>
-                  </select>
-            </div>
+            <div class="dropdown">
+                <div class="dropbtn">PAGINA 7</div>
+                <div class="dropdown-content">
+                  <a href="index.html">PAGINA 1</a>
+                  <a href="dog-e.html">PAGINA 2</a>
+                  <a href="babbelbank.html">PAGINA 3</a>
+                  <a href="breinplanner.html">PAGINA 4</a>
+                  <a href="h5mag.html">PAGINA 5</a>
+                  <a href="stibat.html">PAGINA 6</a>
+                  <a href="spacex.html">PAGINA 7</a>
+                </div>
+              </div>
             <div id="l3" class="line1"></div>
             <div id="l4" class="line1"></div>
 
@@ -282,7 +288,98 @@ Voor meer informatie over deze opdrachten verwijs ik naar <a href="spacex.html">
                 Gehost op: Github pages</p>
 
                 <h3 id="sudoku">Sudoku</h3>
+                <div class="sudokucontainer">
+                    <input type="number" class="sudokublock" value="5" min="1" max="9">
+                    <input type="number" class="sudokublock" value="3" min="1" max="9">
+                    <input type="number" class="sudokublock"  min="1" max="9" id="sudokublock13">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="7" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <br>
+                    <input type="number" class="sudokublock" value="6" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="1" min="1" max="9">
+                    <input type="number" class="sudokublock" value="9" min="1" max="9">
+                    <input type="number" class="sudokublock" value="5" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <br>
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="9" min="1" max="9">
+                    <input type="number" class="sudokublock" value="8" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="6" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <br>
+                    <input type="number" class="sudokublock" value="8" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="6" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="3" min="1" max="9">
+                    <br>
+                    <input type="number" class="sudokublock" value="4" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="8" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="3" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="1" min="1" max="9">
+                    <br>
+                    <input type="number" class="sudokublock" value="7" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="2" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="6" min="1" max="9">
+                    <br>
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="6" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="2" min="1" max="9">
+                    <input type="number" class="sudokublock" value="8" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <br>
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="4" min="1" max="9">
+                    <input type="number" class="sudokublock" value="1" min="1" max="9">
+                    <input type="number" class="sudokublock" value="9" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="5" min="1" max="9">
+                    <br>
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="8" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="" min="1" max="9">
+                    <input type="number" class="sudokublock" value="7" min="1" max="9">
+                    <input type="number" class="sudokublock" value="9" min="1" max="9">
 
+                </div>
 
                 <h3 id="horoscoop">Horoscoop</h3>
                 <p id="horoscooptext">
@@ -309,16 +406,23 @@ Ik hoop dan ook dat ik in de toekomst nog veel meer leuke dingen kan gaan bouwen
                 <textarea id="contactinput3" >Bericht</textarea>
                 <button id="contactsubmit">Verzenden</button>
 
+                <div id="d5" class="decoration1">
+                    <br><br> <a href="#img1" id="home">Home</a>
+                    <br><br> <a href="#projectoverzicht" id="projectlink">Projecten</a>
+                 </div>
+
+                 <div id="d6" class="decoration1">
+                
+                    <br><br> <a href="#colofon" id="overiglink">Overig</a>
+                    <br><br> <a href="#contact" id="contactlink">Contact</a>
+                </div>
+
         </div>
         <div class="background6">
 
         </div>
     </body>
 
-    <script>
-        function myFunction() {
-        document.getElementById("demo").style.color = "red";
-}
-    </script>
+
 
 </html>

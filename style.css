@@ -1,6 +1,14 @@
 body {
     margin: 0;
+    max-width: 1900px;
+
 }
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
 
 p {
     font-family: georgia;
@@ -77,6 +85,7 @@ p {
     top: 0px;
     width: 260px;
     height: 195px;
+    
 }
 
 #d1 {
@@ -112,6 +121,49 @@ p {
     letter-spacing: 0.5px;
 }
 
+#d5 {
+    position: absolute;
+    left: 30px;
+    top: 5000px;
+}
+
+#d6{
+    position: absolute;
+    left: 1720px;
+    top: 5000px;
+}
+
+.sudokucontainer {
+    width: 785px;
+    height: 785px;
+    position: absolute;
+    left: 866px;
+    top: 4031px;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
+.sudokublock {
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    font-size: 53px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    margin-left: -3px;
+    margin-right: -3px;
+    margin-bottom: -2px;
+    padding: 0px;
+
+}
+
 .nav {
     position: absolute;
     left: 1630px;
@@ -132,6 +184,85 @@ p {
     padding: 0;
 }
 
+.dropbtn {
+    padding-left: 7%;
+    padding-top: 3%;
+
+    font-family: 'Courier New Bold', 'Courier New Regular', 'Courier New', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: normal;
+    color: #000000;
+    vertical-align: none;
+    text-align: left;
+    text-transform: none;
+    background-color: transparent;
+    border-color: transparent;
+    width: 130.5px;
+  }
+  
+  .dropdown {
+    position: absolute;
+    left: 1630px;
+    top: 225px;
+    width: 140px;
+    height: 34px;
+    display: flex;
+    font-family: 'Courier New Bold', 'Courier New Regular', 'Courier New', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 1);
+    border-radius: 0px;
+    padding: 0;
+  }
+
+  .sudokubutton {
+    position: absolute;
+    left: 679px;
+    top: 4031px;
+  }
+  
+  .dropdown-content {
+    
+    
+    display: none;
+    position: absolute;
+    
+    min-width: 130px;
+    padding: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+    
+
+    
+  }
+  
+  .dropdown-content a {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 1);
+    border-top: none;
+    width: 115.8px;
+    background-image: url("pics/background2.png");
+    
+    padding: 3% 7%;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: rgba(255, 255, 255, 0.905) ;
+      background-image: none;
+    } 
+  .dropdown:hover .dropdown-content {display: block;}
+
 #u155_input {
 
     padding-left: 10px;
@@ -147,6 +278,8 @@ p {
     background-color: transparent;
     border-color: transparent;
 }
+
+
 
 #l1 {
     position: absolute;
@@ -244,6 +377,27 @@ h4 {
     
 }
 
+#contactlink {
+    margin-left: 25%;
+    font-family: georgia;
+    font-size: 20px;
+    color: #333333;
+}
+
+#overiglink {
+    margin-left: 25%;
+    font-family: georgia;
+    font-size: 20px;
+    color: #333333;
+}
+
+#projectlink {
+    margin-left: 25%;
+    font-family: georgia;
+    font-size: 20px;
+    color: #333333;
+}
+
 #contactinput1 {
     position: absolute;
     left: 670px;
@@ -327,7 +481,7 @@ h4 {
 
 #contact {
     position: absolute;
-    left: 110px;
+    left: 220px;
     top: 4997px;
     width: 610px;
     height: 120px;
@@ -336,7 +490,7 @@ h4 {
 #contacttext{
 
 position: absolute;
-left: 110px;
+left: 220px;
 top: 5136px;
 width: 1332px;
 height: 54px;
@@ -698,7 +852,7 @@ strong {
 }
 
 #home {
-    margin-left: 33%;
+    margin-left: 25%;
     font-family: georgia;
     font-size: 20px;
     color: #333333;
@@ -777,6 +931,30 @@ strong {
     width: 725px;
     height: 613px;
     line-height: 26px;
+}
+
+/************Small**************/
+@media only screen and (min-width: 300px) and (max-width: 649px) {
+
+
+
+
+}
+
+
+/************Mid**************/
+@media only screen and (min-width: 650px) and (max-width: 999px) {
+
+}
+
+/***********Large*************/
+@media only screen and (min-width: 1000px) and (max-width: 1439px){
+
+}
+
+/************XL**************/
+@media only screen and (min-width: 1440px) {
+
 }
 
 
